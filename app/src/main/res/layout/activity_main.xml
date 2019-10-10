@@ -8,27 +8,39 @@
     tools:context=".MainActivity">
 
 
-     <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar"/>
-
+    <include
+       android:id="@+id/toolbar"
+       layout="@layout/toolbar" />
 
     <TextView
         android:id="@+id/tt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toolbar"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-28dp"
         android:text="activity 1"
         android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignBottom="@+id/tt"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:layout_marginBottom="-56dp"
+        android:padding="10dp"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/tt"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="-64dp"
-        android:text="open Court Counter" />
+        android:text="open Court Counter"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>
