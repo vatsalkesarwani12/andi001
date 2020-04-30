@@ -15,7 +15,7 @@ import android.widget.Toast;
 public class MainActivity2 extends AppCompatActivity {
 
 
-    private Button button;
+    private Button button2,button3;
     int aa=0,bb=0;
 
     @Override
@@ -27,15 +27,22 @@ public class MainActivity2 extends AppCompatActivity {
         Toolbar toolbar=findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setTitle("Court Counter");
 
-        button=(Button)findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
+        button2=findViewById(R.id.button2);
+        button3=findViewById(R.id.button3);
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openWEB();
             }
         });
-
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),IntentActivity.class));
+            }
+        });
     }
 
     int fa=0,fb=0;

@@ -28,8 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar=findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        toolbar.setTitle("Just Java");
 
-        button=(Button) findViewById(R.id.button);
+        button= findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
