@@ -12,7 +12,7 @@ import android.widget.Toolbar;
 
 public class SystemIntent extends AppCompatActivity implements View.OnClickListener {
 
-    Button call,map,alarm,email;
+    Button call,map,alarm,email,dailog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +26,13 @@ public class SystemIntent extends AppCompatActivity implements View.OnClickListe
         map=findViewById(R.id.button10);
         email=findViewById(R.id.button11);
         call=findViewById(R.id.button12);
+        dailog=findViewById(R.id.button13);
 
         alarm.setOnClickListener(this);
         map.setOnClickListener(this);
         email.setOnClickListener(this);
         call.setOnClickListener(this);
+        dailog.setOnClickListener(this);
     }
 
     @Override
@@ -91,6 +93,10 @@ public class SystemIntent extends AppCompatActivity implements View.OnClickListe
                 {
                     startActivity(intent4);
                 }
+                break;
+
+            case R.id.button13:
+                startActivity(new Intent(getApplicationContext(),Dailogs.class));
                 break;
         }
     }
