@@ -13,8 +13,15 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dailogs"></activity>
-        <activity android:name=".SystemIntent"></activity>
+        <activity android:name=".FragmentContainer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dailogs" />
+        <activity android:name=".SystemIntent" />
         <activity android:name=".IntentActivity" />
         <activity
             android:name=".MainActivity3"
@@ -23,11 +30,6 @@
             android:name=".MainActivity2"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
