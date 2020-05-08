@@ -1,20 +1,18 @@
-package e.vatsalkesarwani.intentsndservices;
+package e.vatsalkesarwani.intentsndservices.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import e.vatsalkesarwani.intentsndservices.R;
 
 public class MainActivity extends AppCompatActivity {
 

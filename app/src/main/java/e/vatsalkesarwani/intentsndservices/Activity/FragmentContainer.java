@@ -1,4 +1,4 @@
-package e.vatsalkesarwani.intentsndservices;
+package e.vatsalkesarwani.intentsndservices.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import e.vatsalkesarwani.intentsndservices.R;
 
 public class FragmentContainer extends AppCompatActivity {
 

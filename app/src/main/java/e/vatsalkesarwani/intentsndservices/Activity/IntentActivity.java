@@ -1,4 +1,4 @@
-package e.vatsalkesarwani.intentsndservices;
+package e.vatsalkesarwani.intentsndservices.Activity;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toolbar;
+
+import e.vatsalkesarwani.intentsndservices.R;
 
 public class IntentActivity extends AppCompatActivity implements View.OnClickListener {
 

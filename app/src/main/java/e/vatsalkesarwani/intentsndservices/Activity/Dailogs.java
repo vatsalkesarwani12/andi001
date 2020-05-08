@@ -1,4 +1,4 @@
-package e.vatsalkesarwani.intentsndservices;
+package e.vatsalkesarwani.intentsndservices.Activity;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import e.vatsalkesarwani.intentsndservices.R;
 
 public class Dailogs extends AppCompatActivity implements View.OnClickListener {
     Button simpleDailog,customDialog;

@@ -1,4 +1,4 @@
-package e.vatsalkesarwani.intentsndservices;
+package e.vatsalkesarwani.intentsndservices.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.provider.AlarmClock;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toolbar;
+
+import e.vatsalkesarwani.intentsndservices.R;
 
 public class SystemIntent extends AppCompatActivity implements View.OnClickListener {
 
