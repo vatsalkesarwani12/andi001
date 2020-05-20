@@ -91,9 +91,9 @@ public class IntentActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        if(requestCode==REQUEST_CODE && resultCode==RESULT_OK)
-        {
-            Bundle extras=data.getExtras();
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE && resultCode == RESULT_OK) {
+            Bundle extras = data.getExtras();
             Bitmap bitmapImage = (Bitmap) extras.get("data");
             imgView.setImageBitmap(bitmapImage);
         }
