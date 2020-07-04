@@ -1,8 +1,6 @@
 package e.vatsalkesarwani.intentsndservices.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,10 +22,10 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
 
-        Toolbar toolbar=findViewById(R.id.toolbar);
+        /*Toolbar toolbar=findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        toolbar.setTitle("Court Counter");
+        toolbar.setTitle("Court Counter");*/
 
         button2=findViewById(R.id.button2);
         button3=findViewById(R.id.button3);

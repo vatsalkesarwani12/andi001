@@ -13,21 +13,40 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.FragmentContainer" />
-        <activity android:name=".Activity.Dailogs" />
-        <activity android:name=".Activity.SystemIntent" />
-        <activity android:name=".Activity.IntentActivity" />
+        <activity android:name=".Activity.SCI_CustomRadioButton"></activity>
+        <activity
+            android:name=".Activity.SCICheckBox"
+            android:label="Custom CheckBox" />
+        <activity
+            android:name=".Activity.SCIToast"
+            android:label="Toast" />
+        <activity
+            android:name=".Activity.Dailogs"
+            android:label="Dailog"
+            android:parentActivityName=".Activity.SystemIntent" />
+        <activity
+            android:name=".Activity.SystemIntent"
+            android:label="System Intent"
+            android:parentActivityName=".Activity.IntentActivity" />
+        <activity
+            android:name=".Activity.IntentActivity"
+            android:label="Intent"
+            android:parentActivityName=".Activity.MainActivity2" />
         <activity
             android:name=".Activity.MainActivity3"
+            android:label="WebView"
             android:parentActivityName=".Activity.MainActivity2" />
         <activity
             android:name=".Activity.MainActivity2"
+            android:label="Court Counter"
             android:parentActivityName=".Activity.MainActivity" />
-        <activity android:name=".Activity.MainActivity">
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="Just Java">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

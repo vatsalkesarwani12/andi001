@@ -25,8 +25,8 @@ public class IntentActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intent);
-        Toolbar toolbar=findViewById(R.id.toolbar);
-        setActionBar(toolbar);
+        /*Toolbar toolbar=findViewById(R.id.toolbar);
+        setActionBar(toolbar);*/
 
         c=findViewById(R.id.button4);
         u=findViewById(R.id.button5);

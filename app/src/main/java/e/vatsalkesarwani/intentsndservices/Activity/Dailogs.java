@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +15,7 @@ import android.widget.Toast;
 import e.vatsalkesarwani.intentsndservices.R;
 
 public class Dailogs extends AppCompatActivity implements View.OnClickListener {
-    Button simpleDailog,customDialog;
+    Button simpleDailog,customDialog,actToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +24,11 @@ public class Dailogs extends AppCompatActivity implements View.OnClickListener {
 
         simpleDailog=findViewById(R.id.button14);
         customDialog=findViewById(R.id.button15);
+        actToast=findViewById(R.id.actToast);
 
         simpleDailog.setOnClickListener(this);
         customDialog.setOnClickListener(this);
+        actToast.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +43,9 @@ public class Dailogs extends AppCompatActivity implements View.OnClickListener {
             case R.id.button15:
                 customDialog();
                 break;
+
+            case R.id.actToast:
+                startActivity(new Intent(getApplicationContext(),SCI_CustomRadioButton.class));
         }
     }
 

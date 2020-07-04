@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Activity.IntentActivity">
 
-    <include
-        layout="@layout/toolbar"/>
+    <!--<include
+        layout="@layout/toolbar"/>-->
 
     <Button
         android:id="@+id/button4"

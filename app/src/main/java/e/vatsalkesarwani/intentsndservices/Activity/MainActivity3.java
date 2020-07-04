@@ -21,10 +21,10 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
 
-        Toolbar toolbar=findViewById(R.id.toolbar);
+        /*Toolbar toolbar=findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        toolbar.setTitle("WebView");
+        toolbar.setTitle("WebView");*/
 
 
         webview= (WebView)findViewById(R.id.webview);
