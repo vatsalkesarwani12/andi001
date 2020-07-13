@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.sql.Time;
+
 import e.vatsalkesarwani.intentsndservices.R;
 
 public class Dailogs extends AppCompatActivity implements View.OnClickListener {
@@ -45,7 +47,7 @@ public class Dailogs extends AppCompatActivity implements View.OnClickListener {
                 break;
 
             case R.id.actToast:
-                startActivity(new Intent(getApplicationContext(),SCI_CustomRadioButton.class));
+                startActivity(new Intent(getApplicationContext(), HorizontslScrollView.class));
         }
     }
 

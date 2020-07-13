@@ -13,7 +13,24 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.SCI_CustomRadioButton"></activity>
+        <activity android:name=".Activity.HorizontslScrollView"
+            android:label="Horizontal Scroll View"/>
+        <activity
+            android:name=".Activity.AnalogDigital"
+            android:label="Digital Analog" />
+        <activity
+            android:name=".Activity.TimePicker"
+            android:label="Time Picker" />
+        <activity
+            android:name=".Activity.SCI_DynamicRadioButtom"
+            android:label="Dynamic Radio Button" />
+        <activity
+            android:name=".Activity.SCI_RatingBar"
+            android:label="RatingBar" />
+        <activity
+            android:name=".Activity.SCI_seekbar"
+            android:label="Seekbar" />
+        <activity android:name=".Activity.SCI_CustomRadioButton" />
         <activity
             android:name=".Activity.SCICheckBox"
             android:label="Custom CheckBox" />
