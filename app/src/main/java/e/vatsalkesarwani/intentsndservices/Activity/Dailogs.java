@@ -47,7 +47,7 @@ public class Dailogs extends AppCompatActivity implements View.OnClickListener {
                 break;
 
             case R.id.actToast:
-                startActivity(new Intent(getApplicationContext(), HorizontslScrollView.class));
+                startActivity(new Intent(getApplicationContext(), SCI_TablLayouy_FrameLayout.class));
         }
     }
 

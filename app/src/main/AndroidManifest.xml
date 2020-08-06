@@ -13,8 +13,14 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.HorizontslScrollView"
-            android:label="Horizontal Scroll View"/>
+        <activity android:name=".Activity.SCI_TablLayouy_FrameLayout"
+            android:label="TabLayout with FrameLayout"/>
+        <activity
+            android:name=".Activity.ViewStubActivity"
+            android:label="View Stub Activity" />
+        <activity
+            android:name=".Activity.HorizontslScrollView"
+            android:label="Horizontal Scroll View" />
         <activity
             android:name=".Activity.AnalogDigital"
             android:label="Digital Analog" />
