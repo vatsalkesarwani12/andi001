@@ -3,6 +3,7 @@ package e.vatsalkesarwani.intentsndservices.Activity;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -47,7 +48,7 @@ public class Dailogs extends AppCompatActivity implements View.OnClickListener {
                 break;
 
             case R.id.actToast:
-                startActivity(new Intent(getApplicationContext(), SCI_TablLayouy_FrameLayout.class));
+                startActivity(new Intent(getApplicationContext(), startActivity.class));
         }
     }
 

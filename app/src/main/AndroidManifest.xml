@@ -13,8 +13,15 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.SCI_TablLayouy_FrameLayout"
-            android:label="TabLayout with FrameLayout"/>
+        <activity android:name=".Activity.ResultActivity"></activity>
+        <activity android:name=".Activity.startActivity" />
+        <activity android:name=".Activity.SecondActivity" />
+        <activity android:name=".Activity.ExplicitIntent" />
+        <activity android:name=".Activity.OpenUrl" />
+        <activity android:name=".Activity.ActivityCycle" />
+        <activity
+            android:name=".Activity.SCI_TablLayouy_FrameLayout"
+            android:label="TabLayout with FrameLayout" />
         <activity
             android:name=".Activity.ViewStubActivity"
             android:label="View Stub Activity" />
