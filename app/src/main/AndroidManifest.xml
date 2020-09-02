@@ -13,7 +13,8 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.ResultActivity"></activity>
+        <activity android:name=".Activity.BottomSheet"></activity>
+        <activity android:name=".Activity.ResultActivity" />
         <activity android:name=".Activity.startActivity" />
         <activity android:name=".Activity.SecondActivity" />
         <activity android:name=".Activity.ExplicitIntent" />
